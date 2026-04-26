@@ -67,7 +67,7 @@ Core Pipeline:
    Enter in sidebar for full agentic functionality
 
 🎥 Demo Video
-(Add your YouTube/Drive link here)
+(https://drive.google.com/drive/u/0/folders/1WDeMZrUaPLnqDuS8d5fLt2AWWKQYnw4Q)
 
 🌟 Future Scope
 
