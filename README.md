@@ -37,6 +37,25 @@ Core Pipeline:
 
 4. Persona-Driven Outreach
    Generates personalized LinkedIn-style messages using a **Senior Recruiter persona**, improving response rates.
+   
+🧠 Scoring Logic Description : 
+
+The system ranks candidates using a weighted, multi-factor scoring model designed to reflect real-world hiring priorities.
+
+Each candidate is evaluated across three key dimensions:
+
+Skills Match – Measures how well a candidate’s skills align with the job requirements using case-insensitive matching.
+Experience Score – Compares candidate experience against required experience, capped to avoid over-weighting senior profiles.
+Engagement Score – Captures activity signals such as projects or contributions (mocked for demo reliability).
+
+These components are combined into a final score using weighted importance:
+
+Skills (50%)
+Experience (30%)
+Engagement (20%)
+
+This approach ensures the ranking is balanced, explainable, and efficient, enabling recruiters to quickly identify the most relevant candidates.   
+   
 
 ⚖️ Trade-offs & Engineering Decisions
 
@@ -67,7 +86,7 @@ Core Pipeline:
    Enter in sidebar for full agentic functionality
 
 🎥 Demo Video
-(https://drive.google.com/drive/u/0/folders/1WDeMZrUaPLnqDuS8d5fLt2AWWKQYnw4Q)
+(https://drive.google.com/file/d/1GMvWfbDx36x1EdtQQgQH4OhTjR5meQHk/view?usp=drive_link)
 
 🌟 Future Scope
 
